@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="empform.css">
+</head>
+    <body>
+        <h1>Employee Registration Form</h1><br>
+        <form>
+          <label for="name">FullName:</label>
+          <input type="text" id="FullName" name="FullName" required>
+          
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required>
+
+          <label for="phone">Enter a phone number:</label>
+          <input type="phone" id="phone" name="phone"  pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" required><br><br>
+          
+          <label for="password">Father Name:</label>
+          <input type="text" id="text" name="text" required>
+          
+          <label for="dob">Date of Birth:</label>
+          <input type="date" id="dob" name="dob" required><br>
+          
+          <label for="gender">Gender:</label>
+          <select id="gender" name="gender"><br>
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+            <option value="other">Other</option>
+            <br>
+          </select>
+
+          <label for="text">Total Exp:</label>
+          <input type="text" id="Total Exp" name="Total exp" required>
+
+          <label for="text">Relative Exp:</label>
+          <input type="text" id="Relative Exp" name="Relative exp" required>
+
+          <label for="text">key Skills:</label>
+          <input type="text" id="key Skills" name="key Skills" required>
+
+          <label for="text">Strengths:</label>
+          <input type="text" id="Strengths" name="Strengths">
+
+          <label for="text">Designation:</label>
+          <input type="text" id="Designation" name="Designation" required>
+
+          <label for="text">Company Address:</label>
+          <input type="text" id="Company Address" name="Company Address" required>
+
+          <label for="text">Present CTC:</label>
+          <input type="text" id="Present CTC" name="Present CTC" required>
+
+          <label for="text">Expected CTC:</label>
+          <input type="text" id="Expected CTC" name="Present CTC" required>
+
+          <label for="text">Notice Period:</label>
+          <input type="text" id="Notice Period" name="Notice Period" required>
+
+          <label for="text">File Uoload:</label>
+          <input type="file" id="myFile" name="filename" required>
+          
+          <label for="text">Note:</label>
+          <textarea id="Note" name="note"></textarea><br><br>
+          
+          <input type="submit" value="submit">
+        </form>
+      </body>
+      </html>

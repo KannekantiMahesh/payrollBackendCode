@@ -1,0 +1,29 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: whitesmoke;
+    margin-left: 50px;
+    padding-top: 20px;
+}
+.mahi{
+  
+    text-align: center;
+    padding-bottom: 50px;
+    padding-top: 20px;
+    
+}
+.mahi a{
+    color: rgb(21, 21, 230);
+    font-size: 20px;
+}
+button{
+    width: 60px;
+    height: 25px;
+    font-size: 15px;
+    color:white;
+    background-color: black;
+    border-radius: 5px;
+}
